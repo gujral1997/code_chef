@@ -29,14 +29,7 @@ int main(int argc, char const *argv[])
 		}
 		else
 		{
-			if(s[i/2]==s[(i/2)-1])
-			{
-				cout<<s[0]<<endl;
-			}
-			else
-			{
-				cout<<s[(i/2)+1]<<endl;
-			}
+			cout<<s[i/2]<<endl;
 		}
 	}
 	return 0;
